@@ -1,0 +1,35 @@
+%is-section {
+  font-family: var(--wp--preset--font-family--primary);
+  text-transform: uppercase;
+  display: inline-block;
+
+  &:hover {
+    background-color: var(--wp--preset--color--shade-50);
+  }
+}
+
+%is-side-section {
+  font-family: var(--wp--preset--font-family--primary);
+  text-transform: uppercase;
+}
+
+%is-page-title {
+  font-family: var(--wp--preset--font-family--secondary);
+}
+
+%is-hero-title {
+  font-family: var(--wp--preset--font-family--secondary);
+}
+
+%is-large {
+  font-family: var(--wp--preset--font-family--secondary);
+}
+
+%is-small {
+  font-family: var(--wp--preset--font-family--secondary);
+}
+
+%is-italic {
+  font-family: var(--wp--preset--font-family--secondary);
+  font-style: italic;
+}

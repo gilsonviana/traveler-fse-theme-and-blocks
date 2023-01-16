@@ -1,0 +1,24 @@
+{
+    "name": "traveler/traveler-fse-blocks",
+    "description": "A set of blocks made for the FSE theme",
+    "autoload": {
+        "psr-4": {
+            "TravelerFseBlocks\\": ["src/"],
+            "TravelerFseBlocks\\Classes\\": ["src/Classes/"],
+            "TravelerFseBlocks\\Interfaces\\": ["src/Interfaces/"]
+        },
+        "files": [
+            "src/Interfaces/BaseBlock.php",
+            "src/Classes/Block.php",
+            "src/Classes/BlockAssets.php",
+            "src/init.php",
+            "src/blocks/heading/index.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Modus Create Inc"
+        }
+    ],
+    "require": {}
+}

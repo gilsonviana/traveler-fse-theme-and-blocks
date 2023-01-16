@@ -1,0 +1,11 @@
+@import './style-variations.scss';
+
+.wp-block-traveler-fse-blocks-heading {
+  &.is-style-section { @extend %is-section; }
+  &.is-style-side-section { @extend %is-side-section; }
+  &.is-style-page-title { @extend %is-page-title; }
+  &.is-style-hero-title { @extend %is-hero-title; }
+  &.is-style-large { @extend %is-large; }
+  &.is-style-small { @extend %is-small; }
+  &.is-style-italic { @extend %is-italic; }
+}

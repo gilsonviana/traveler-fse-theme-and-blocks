@@ -1,0 +1,39 @@
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/heading/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+.wp-block-traveler-fse-blocks-heading.is-style-section {
+  font-family: var(--wp--preset--font-family--primary);
+  text-transform: uppercase;
+  display: inline-block;
+}
+.wp-block-traveler-fse-blocks-heading.is-style-section:hover {
+  background-color: var(--wp--preset--color--shade-50);
+}
+
+.wp-block-traveler-fse-blocks-heading.is-style-side-section {
+  font-family: var(--wp--preset--font-family--primary);
+  text-transform: uppercase;
+}
+
+.wp-block-traveler-fse-blocks-heading.is-style-page-title {
+  font-family: var(--wp--preset--font-family--secondary);
+}
+
+.wp-block-traveler-fse-blocks-heading.is-style-hero-title {
+  font-family: var(--wp--preset--font-family--secondary);
+}
+
+.wp-block-traveler-fse-blocks-heading.is-style-large {
+  font-family: var(--wp--preset--font-family--secondary);
+}
+
+.wp-block-traveler-fse-blocks-heading.is-style-small {
+  font-family: var(--wp--preset--font-family--secondary);
+}
+
+.wp-block-traveler-fse-blocks-heading.is-style-italic {
+  font-family: var(--wp--preset--font-family--secondary);
+  font-style: italic;
+}
+
+/*# sourceMappingURL=style-index.css.map*/
