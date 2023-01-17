@@ -1,39 +1,79 @@
 /*!******************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/heading/style.scss ***!
   \******************************************************************************************************************************************************************************************************************************************************/
-.wp-block-traveler-fse-blocks-heading.is-style-section {
+.wp-block-traveler-fse-blocks-heading.is-style-section .traveler-fse-blocks-heading {
+  border-bottom-width: var(--wp--custom--heading-section--bottom-border-width);
+  border-bottom-color: var(--wp--preset--color--shade-50);
+  border-bottom-style: solid;
   font-family: var(--wp--preset--font-family--primary);
+  font-size: var(--wp--preset--font-size--heading-section);
+  line-height: var(--wp--custom--heading-section--line-height);
+  letter-spacing: var(--wp--custom--heading-section--letter-spacing);
   text-transform: uppercase;
-  display: inline-block;
+  transition: var(--wp--custom--heading-hover-transition);
 }
-.wp-block-traveler-fse-blocks-heading.is-style-section:hover {
+.wp-block-traveler-fse-blocks-heading.is-style-section .traveler-fse-blocks-heading:hover {
   background-color: var(--wp--preset--color--shade-50);
 }
 
-.wp-block-traveler-fse-blocks-heading.is-style-side-section {
+.wp-block-traveler-fse-blocks-heading.is-style-side-section .traveler-fse-blocks-heading {
   font-family: var(--wp--preset--font-family--primary);
+  font-size: var(--wp--preset--font-size--heading-side-section);
+  line-height: var(--wp--custom--heading-side-section--line-height);
+  letter-spacing: var(--wp--custom--heading-side-section--letter-spacing);
   text-transform: uppercase;
 }
 
-.wp-block-traveler-fse-blocks-heading.is-style-page-title {
+.wp-block-traveler-fse-blocks-heading.is-style-page-title .traveler-fse-blocks-heading {
   font-family: var(--wp--preset--font-family--secondary);
+  font-size: var(--wp--preset--font-size--heading-page-title);
+  line-height: var(--wp--custom--heading-page-title--line-height);
+  letter-spacing: var(--wp--custom--heading-page-title--letter-spacing);
+  font-weight: var(--wp--custom--font-weight--normal);
 }
 
-.wp-block-traveler-fse-blocks-heading.is-style-hero-title {
+.wp-block-traveler-fse-blocks-heading.is-style-hero-title .traveler-fse-blocks-heading {
   font-family: var(--wp--preset--font-family--secondary);
+  font-size: var(--wp--preset--font-size--heading-hero-title);
+  line-height: var(--wp--custom--heading-hero-title--line-height);
+  letter-spacing: var(--wp--custom--heading-hero-title--letter-spacing);
 }
 
-.wp-block-traveler-fse-blocks-heading.is-style-large {
+.wp-block-traveler-fse-blocks-heading.is-style-large .traveler-fse-blocks-heading {
   font-family: var(--wp--preset--font-family--secondary);
+  font-size: var(--wp--preset--font-size--heading-large);
+  line-height: var(--wp--custom--heading-large--line-height);
+  letter-spacing: var(--wp--custom--heading-large--letter-spacing);
+  font-weight: var(--wp--custom--font-weight--normal);
 }
 
-.wp-block-traveler-fse-blocks-heading.is-style-small {
+.wp-block-traveler-fse-blocks-heading.is-style-small .traveler-fse-blocks-heading {
   font-family: var(--wp--preset--font-family--secondary);
+  font-size: var(--wp--preset--font-size--heading-small);
+  line-height: var(--wp--custom--heading-small--line-height);
+  letter-spacing: var(--wp--custom--heading-small--letter-spacing);
+  font-weight: var(--wp--custom--font-weight--normal);
 }
 
-.wp-block-traveler-fse-blocks-heading.is-style-italic {
+.wp-block-traveler-fse-blocks-heading.is-style-italic .traveler-fse-blocks-heading {
   font-family: var(--wp--preset--font-family--secondary);
+  font-size: var(--wp--preset--font-size--heading-italic);
   font-style: italic;
+  line-height: var(--wp--custom--heading-small--line-height);
+  letter-spacing: var(--wp--custom--heading-small--letter-spacing);
+  font-weight: var(--wp--custom--font-weight--normal);
+}
+
+.wp-block-traveler-fse-blocks-heading.is-style-heading-post .traveler-fse-blocks-heading {
+  font-family: var(--wp--preset--font-family--primary);
+  font-size: var(--wp--preset--font-size--heading-post);
+  line-height: var(--wp--custom--heading-post--line-height);
+  letter-spacing: var(--wp--custom--heading-post--letter-spacing);
+  font-weight: var(--wp--custom--font-weight--bold);
+}
+
+.wp-block-traveler-fse-blocks-heading .traveler-fse-blocks-heading {
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style-index.css.map*/

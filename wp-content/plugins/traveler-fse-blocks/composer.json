@@ -12,7 +12,9 @@
             "src/Classes/Block.php",
             "src/Classes/BlockAssets.php",
             "src/init.php",
-            "src/blocks/heading/index.php"
+            "src/blocks/heading/index.php",
+            "src/blocks/paragraph/index.php",
+            "src/blocks/post-title/index.php"
         ]
     },
     "authors": [

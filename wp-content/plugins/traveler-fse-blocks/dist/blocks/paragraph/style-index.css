@@ -1,0 +1,43 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/paragraph/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+.wp-block-traveler-fse-blocks-paragraph.is-style-excerpt .traveler-fse-blocks-paragraph {
+  font-family: var(--wp--preset--font-family--primary);
+  font-size: var(--wp--preset--font-size--paragraph-excerpt);
+  line-height: var(--wp--custom--paragraph-excerpt--line-height);
+  letter-spacing: var(--wp--custom--paragraph-excerpt--letter-spacing);
+}
+
+.wp-block-traveler-fse-blocks-paragraph.is-style-short-intro .traveler-fse-blocks-paragraph {
+  font-family: var(--wp--preset--font-family--secondary);
+  font-size: var(--wp--preset--font-size--paragraph-short-intro);
+  line-height: var(--wp--custom--paragraph-short-intro--line-height);
+  letter-spacing: var(--wp--custom--paragraph-short-intro--letter-spacing);
+}
+
+.wp-block-traveler-fse-blocks-paragraph.is-style-first-letter .traveler-fse-blocks-paragraph {
+  color: var(--wp--preset--color--shade-40);
+  font-family: var(--wp--preset--font-family--primary);
+  font-size: var(--wp--preset--font-size--paragraph-first-letter);
+  line-height: var(--wp--custom--paragraph-first-letter--line-height);
+  letter-spacing: var(--wp--custom--paragraph-first-letter--letter-spacing);
+  font-weight: var(--wp--custom--font-weight--light);
+}
+.wp-block-traveler-fse-blocks-paragraph.is-style-first-letter .traveler-fse-blocks-paragraph::first-letter {
+  font-weight: var(--wp--custom--font-weight--bold);
+  font-family: var(--wp--preset--font-family--secondary);
+  line-height: 0.9;
+  font-size: 4.5rem;
+  color: var(--wp--preset--color--accent-0);
+  padding: 0 8px 0 3px;
+  float: left;
+}
+
+.wp-block-traveler-fse-blocks-paragraph .traveler-fse-blocks-paragraph {
+  font-family: var(--wp--preset--font-family--primary);
+  font-size: var(--wp--preset--font-size--paragraph-post);
+  line-height: var(--wp--custom--paragraph-post--line-height);
+  letter-spacing: var(--wp--custom--paragraph-post--letter-spacing);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

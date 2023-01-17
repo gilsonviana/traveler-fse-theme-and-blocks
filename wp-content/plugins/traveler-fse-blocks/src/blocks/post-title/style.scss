@@ -1,0 +1,9 @@
+@import './style-variations.scss';
+
+.wp-block-traveler-fse-blocks-post-title {
+  &.is-style-destination-title {
+    .traveler-fse-blocks-post-title {
+      @extend %is-destination-title;
+    }
+  }
+}

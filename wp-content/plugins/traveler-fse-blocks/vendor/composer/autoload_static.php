@@ -12,6 +12,8 @@ class ComposerStaticInit8697655cb3cca9f83eb55eb31f6cfacb
         '30b41e677547cf3101c3229d46d6164e' => __DIR__ . '/../..' . '/src/Classes/BlockAssets.php',
         '7571995ad2bddbb51017d433ac12d1b0' => __DIR__ . '/../..' . '/src/init.php',
         '0d7fc94da6fa3d48bab08f6028e87977' => __DIR__ . '/../..' . '/src/blocks/heading/index.php',
+        '0e7ad59c075b0c9e4e2081675aad068c' => __DIR__ . '/../..' . '/src/blocks/paragraph/index.php',
+        'a20681b06d69bbee1ed393cbff6302d6' => __DIR__ . '/../..' . '/src/blocks/post-title/index.php',
     );
 
     public static $prefixLengthsPsr4 = array (

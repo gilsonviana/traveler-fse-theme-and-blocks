@@ -11,4 +11,6 @@ return array(
     '30b41e677547cf3101c3229d46d6164e' => $baseDir . '/src/Classes/BlockAssets.php',
     '7571995ad2bddbb51017d433ac12d1b0' => $baseDir . '/src/init.php',
     '0d7fc94da6fa3d48bab08f6028e87977' => $baseDir . '/src/blocks/heading/index.php',
+    '0e7ad59c075b0c9e4e2081675aad068c' => $baseDir . '/src/blocks/paragraph/index.php',
+    'a20681b06d69bbee1ed393cbff6302d6' => $baseDir . '/src/blocks/post-title/index.php',
 );

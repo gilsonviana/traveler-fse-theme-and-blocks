@@ -1,0 +1,26 @@
+@import './style-variations.scss';
+
+.wp-block-traveler-fse-blocks-paragraph {
+  // .is-style-post DEFAULT
+  .traveler-fse-blocks-paragraph {
+    @extend %is-post;
+  }
+
+  &.is-style-excerpt {
+    .traveler-fse-blocks-paragraph {
+      @extend %is-excerpt;
+    }
+  }
+
+  &.is-style-short-intro {
+    .traveler-fse-blocks-paragraph {
+      @extend %is-short-intro;
+    }
+  }
+
+  &.is-style-first-letter {
+    .traveler-fse-blocks-paragraph {
+      @extend %is-first-letter;
+    }
+  }
+}

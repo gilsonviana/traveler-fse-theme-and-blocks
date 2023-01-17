@@ -35,6 +35,10 @@
 		{
 			"name": "italic",
 			"label": "Italic"
+		},
+		{
+			"name": "heading-post",
+			"label": "Heading Post"
 		}
 	],
 	"example": {},

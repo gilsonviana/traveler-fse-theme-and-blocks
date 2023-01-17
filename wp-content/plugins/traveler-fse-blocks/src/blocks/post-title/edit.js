@@ -1,7 +1,7 @@
 import { useBlockProps, InnerBlocks } from '@wordpress/block-editor';
 
 const INNER_BLOCKS_TEMPLATE = [
-	['core/heading', { className: 'traveler-fse-blocks-heading' }]
+	['core/post-title', { className: 'traveler-fse-blocks-post-title' }]
 ];
 
 const Edit = () => {

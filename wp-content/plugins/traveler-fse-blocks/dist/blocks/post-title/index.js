@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/blocks/heading/edit.js":
-/*!************************************!*\
-  !*** ./src/blocks/heading/edit.js ***!
-  \************************************/
+/***/ "./src/blocks/post-title/edit.js":
+/*!***************************************!*\
+  !*** ./src/blocks/post-title/edit.js ***!
+  \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18,8 +18,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__);
 
 
-const INNER_BLOCKS_TEMPLATE = [['core/heading', {
-  className: 'traveler-fse-blocks-heading'
+const INNER_BLOCKS_TEMPLATE = [['core/post-title', {
+  className: 'traveler-fse-blocks-post-title'
 }]];
 const Edit = () => {
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps)(), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks, {
@@ -31,20 +31,20 @@ const Edit = () => {
 
 /***/ }),
 
-/***/ "./src/blocks/heading/index.js":
-/*!*************************************!*\
-  !*** ./src/blocks/heading/index.js ***!
-  \*************************************/
+/***/ "./src/blocks/post-title/index.js":
+/*!****************************************!*\
+  !*** ./src/blocks/post-title/index.js ***!
+  \****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @wordpress/blocks */ "@wordpress/blocks");
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./edit */ "./src/blocks/heading/edit.js");
-/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./save */ "./src/blocks/heading/save.js");
-/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./block.json */ "./src/blocks/heading/block.json");
-/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./editor.scss */ "./src/blocks/heading/editor.scss");
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.scss */ "./src/blocks/heading/style.scss");
+/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./edit */ "./src/blocks/post-title/edit.js");
+/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./save */ "./src/blocks/post-title/save.js");
+/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./block.json */ "./src/blocks/post-title/block.json");
+/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./editor.scss */ "./src/blocks/post-title/editor.scss");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./style.scss */ "./src/blocks/post-title/style.scss");
 
 
 
@@ -58,10 +58,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/blocks/heading/save.js":
-/*!************************************!*\
-  !*** ./src/blocks/heading/save.js ***!
-  \************************************/
+/***/ "./src/blocks/post-title/save.js":
+/*!***************************************!*\
+  !*** ./src/blocks/post-title/save.js ***!
+  \***************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -81,10 +81,10 @@ const Save = () => {
 
 /***/ }),
 
-/***/ "./src/blocks/heading/editor.scss":
-/*!****************************************!*\
-  !*** ./src/blocks/heading/editor.scss ***!
-  \****************************************/
+/***/ "./src/blocks/post-title/editor.scss":
+/*!*******************************************!*\
+  !*** ./src/blocks/post-title/editor.scss ***!
+  \*******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -93,10 +93,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/blocks/heading/style.scss":
-/*!***************************************!*\
-  !*** ./src/blocks/heading/style.scss ***!
-  \***************************************/
+/***/ "./src/blocks/post-title/style.scss":
+/*!******************************************!*\
+  !*** ./src/blocks/post-title/style.scss ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -135,13 +135,13 @@ module.exports = window["wp"]["element"];
 
 /***/ }),
 
-/***/ "./src/blocks/heading/block.json":
-/*!***************************************!*\
-  !*** ./src/blocks/heading/block.json ***!
-  \***************************************/
+/***/ "./src/blocks/post-title/block.json":
+/*!******************************************!*\
+  !*** ./src/blocks/post-title/block.json ***!
+  \******************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"traveler-fse-blocks/heading","version":"0.1.0","title":"FSE: Heading","category":"theme","icon":"flag","description":"A Gutenberg block.","styles":[{"name":"section","label":"Section"},{"name":"side-section","label":"Side Section"},{"name":"page-title","label":"Page Title"},{"name":"hero-title","label":"Hero Title"},{"name":"large","label":"Large"},{"name":"small","label":"Small"},{"name":"italic","label":"Italic"},{"name":"heading-post","label":"Heading Post"}],"example":{},"textdomain":"traveler-fse-blocks","editorScript":["file:./index.js","traveler-fse-blocks-heading-editor-script"],"editorStyle":["file:./index.css","traveler-fse-blocks-heading-editor-style"],"style":["file:./style-index.css","traveler-fse-blocks-heading-style"]}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"traveler-fse-blocks/post-title","version":"0.1.0","title":"FSE: Post Title","category":"theme","icon":"flag","description":"A Gutenberg block.","styles":[{"name":"destination-title","label":"Destination Title"}],"usesContext":["postId","postType","queryId"],"example":{},"textdomain":"traveler-fse-blocks","editorScript":["file:./index.js","traveler-fse-blocks-post-title-editor-script"],"editorStyle":["file:./index.css","traveler-fse-blocks-post-title-editor-style"],"style":["file:./style-index.css","traveler-fse-blocks-post-title-style"]}');
 
 /***/ })
 
@@ -257,8 +257,8 @@ module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"blocks/heading/index": 0,
-/******/ 			"blocks/heading/style-index": 0
+/******/ 			"blocks/post-title/index": 0,
+/******/ 			"blocks/post-title/style-index": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -310,7 +310,7 @@ module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["blocks/heading/style-index"], () => (__webpack_require__("./src/blocks/heading/index.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["blocks/post-title/style-index"], () => (__webpack_require__("./src/blocks/post-title/index.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
