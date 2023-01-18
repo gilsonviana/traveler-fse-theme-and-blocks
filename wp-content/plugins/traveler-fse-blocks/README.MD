@@ -23,3 +23,17 @@ domReady(() => {
   console.log('@wordpress/dom-ready --- temp block');
 });
 ```
+
+```
+return select('core').getUsers({ who: 'authors' });
+return select('core/block-editor').getTemplate();
+return select('core/block-editor').getSettings();
+return select('core/block-editor').getSelectedBlock();
+return select('core/editor').getEditedPostContent();
+return select('core/editor').getCurrentPost();
+return select('core/editor').getEditorBlocks();
+```
+
+```
+wp.blocks.serialize( wp.blocks.parse( wp.data.select( 'core/editor' ).getEditedPostContent() ) );
+```

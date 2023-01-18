@@ -9,12 +9,14 @@
         },
         "files": [
             "src/Interfaces/BaseBlock.php",
+            "src/Classes/Plugin.php",
             "src/Classes/Block.php",
             "src/Classes/BlockAssets.php",
             "src/init.php",
             "src/blocks/heading/index.php",
             "src/blocks/paragraph/index.php",
-            "src/blocks/post-title/index.php"
+            "src/blocks/post-title/index.php",
+            "src/blocks/post-hero/index.php"
         ]
     },
     "authors": [

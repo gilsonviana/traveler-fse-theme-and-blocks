@@ -141,7 +141,7 @@ module.exports = window["wp"]["element"];
   \*****************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"traveler-fse-blocks/paragraph","version":"0.1.0","title":"FSE: Paragraph","category":"theme","icon":"flag","description":"A Gutenberg block.","styles":[{"name":"excerpt","label":"Excerpt"},{"name":"short-intro","label":"Short Intro"},{"name":"first-letter","label":"First Letter"},{"name":"post","label":"Post","isDefault":true}],"example":{},"textdomain":"traveler-fse-blocks","editorScript":["file:./index.js","traveler-fse-blocks-paragraph-editor-script"],"editorStyle":["file:./index.css","traveler-fse-blocks-paragraph-editor-style"],"style":["file:./style-index.css","traveler-fse-blocks-paragraph-style"]}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"traveler-fse-blocks/paragraph","version":"0.1.0","title":"FSE: Paragraph","category":"fse-blocks","icon":"flag","description":"A Gutenberg block.","styles":[{"name":"excerpt","label":"Excerpt"},{"name":"short-intro","label":"Short Intro"},{"name":"first-letter","label":"First Letter"},{"name":"post","label":"Post","isDefault":true}],"example":{},"textdomain":"traveler-fse-blocks","editorScript":["file:./index.js","traveler-fse-blocks-paragraph-editor-script"],"editorStyle":["file:./index.css","traveler-fse-blocks-paragraph-editor-style"],"style":["file:./style-index.css","traveler-fse-blocks-paragraph-style"]}');
 
 /***/ })
 

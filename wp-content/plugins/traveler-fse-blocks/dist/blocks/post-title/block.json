@@ -4,13 +4,17 @@
   "name": "traveler-fse-blocks/post-title",
   "version": "0.1.0",
   "title": "FSE: Post Title",
-  "category": "theme",
+  "category": "fse-blocks",
   "icon": "flag",
   "description": "A Gutenberg block.",
   "styles": [
     {
       "name": "destination-title",
       "label": "Destination Title"
+    },
+    {
+      "name": "post-title",
+      "label": "Post Title"
     }
   ],
   "usesContext": [

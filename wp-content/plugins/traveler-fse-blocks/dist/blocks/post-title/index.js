@@ -141,7 +141,7 @@ module.exports = window["wp"]["element"];
   \******************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"traveler-fse-blocks/post-title","version":"0.1.0","title":"FSE: Post Title","category":"theme","icon":"flag","description":"A Gutenberg block.","styles":[{"name":"destination-title","label":"Destination Title"}],"usesContext":["postId","postType","queryId"],"example":{},"textdomain":"traveler-fse-blocks","editorScript":["file:./index.js","traveler-fse-blocks-post-title-editor-script"],"editorStyle":["file:./index.css","traveler-fse-blocks-post-title-editor-style"],"style":["file:./style-index.css","traveler-fse-blocks-post-title-style"]}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"traveler-fse-blocks/post-title","version":"0.1.0","title":"FSE: Post Title","category":"fse-blocks","icon":"flag","description":"A Gutenberg block.","styles":[{"name":"destination-title","label":"Destination Title"},{"name":"post-title","label":"Post Title"}],"usesContext":["postId","postType","queryId"],"example":{},"textdomain":"traveler-fse-blocks","editorScript":["file:./index.js","traveler-fse-blocks-post-title-editor-script"],"editorStyle":["file:./index.css","traveler-fse-blocks-post-title-editor-style"],"style":["file:./style-index.css","traveler-fse-blocks-post-title-style"]}');
 
 /***/ })
 

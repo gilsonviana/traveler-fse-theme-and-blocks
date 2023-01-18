@@ -6,4 +6,10 @@
       @extend %is-destination-title;
     }
   }
+
+  &.is-style-post-title {
+    .traveler-fse-blocks-post-title {
+      @extend %is-post-title;
+    }
+  }
 }

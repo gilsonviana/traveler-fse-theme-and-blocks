@@ -4,7 +4,7 @@
   "name": "traveler-fse-blocks/paragraph",
   "version": "0.1.0",
   "title": "FSE: Paragraph",
-  "category": "theme",
+  "category": "fse-blocks",
   "icon": "flag",
   "description": "A Gutenberg block.",
   "styles": [

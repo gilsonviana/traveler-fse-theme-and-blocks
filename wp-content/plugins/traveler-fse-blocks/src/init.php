@@ -1,5 +1,7 @@
 <?php
 
-// namespace TravelerFseBlocks;
+namespace TravelerFseBlocks;
 
-// load plugin theme domain
+use TravelerFseBlocks\Classes\Plugin;
+
+new Plugin();

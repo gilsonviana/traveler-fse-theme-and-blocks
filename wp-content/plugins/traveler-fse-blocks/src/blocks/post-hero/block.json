@@ -1,0 +1,16 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "traveler-fse-blocks/post-hero",
+	"version": "0.1.0",
+	"title": "FSE: Post Hero",
+	"category": "fse-blocks",
+	"icon": "flag",
+	"description": "A Gutenberg block.",
+	"usesContext": [ "postId", "postType", "queryId" ],
+	"example": {},
+	"textdomain": "traveler-fse-blocks",
+	"editorScript": ["file:./index.js", "traveler-fse-blocks-post-hero-editor-script"],
+	"editorStyle": ["file:./index.css", "traveler-fse-blocks-post-hero-editor-style"],
+	"style": ["file:./style-index.css", "traveler-fse-blocks-post-hero-style"]
+}

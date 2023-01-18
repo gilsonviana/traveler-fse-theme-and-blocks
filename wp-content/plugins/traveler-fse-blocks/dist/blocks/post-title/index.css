@@ -8,4 +8,12 @@
   letter-spacing: var(--wp--custom--heading-hero-title--letter-spacing);
 }
 
+.wp-block-traveler-fse-blocks-post-title.is-style-post-title .traveler-fse-blocks-post-title {
+  font-family: var(--wp--preset--font-family--secondary);
+  font-size: var(--wp--preset--font-size--heading-post-title);
+  line-height: var(--wp--custom--heading-post-title--line-height);
+  letter-spacing: var(--wp--custom--heading-post-title--letter-spacing);
+  font-weight: var(--wp--custom--font-weight--normal);
+}
+
 /*# sourceMappingURL=index.css.map*/
