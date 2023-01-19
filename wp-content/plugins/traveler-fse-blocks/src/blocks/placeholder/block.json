@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "traveler-fse-blocks/placeholder",
+	"version": "0.1.0",
+	"title": "FSE: Placeholder",
+	"category": "fse-blocks",
+	"icon": "flag",
+	"description": "A Gutenberg block.",
+	"styles": [
+		{
+			"name": "excerpt",
+			"label": "Excerpt"
+		}
+	],
+	"example": {},
+	"textdomain": "traveler-fse-blocks",
+	"editorScript": ["file:./index.js", "traveler-fse-blocks-placeholder-editor-script"],
+	"editorStyle": ["file:./index.css", "traveler-fse-blocks-placeholder-editor-style"],
+	"style": ["file:./style-index.css", "traveler-fse-blocks-placeholder-style"]
+}

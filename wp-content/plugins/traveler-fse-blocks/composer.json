@@ -16,7 +16,8 @@
             "src/blocks/heading/index.php",
             "src/blocks/paragraph/index.php",
             "src/blocks/post-title/index.php",
-            "src/blocks/post-hero/index.php"
+            "src/blocks/post-hero/index.php",
+            "src/blocks/hotel-links/index.php"
         ]
     },
     "authors": [

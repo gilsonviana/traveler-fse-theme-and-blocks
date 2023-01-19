@@ -16,6 +16,7 @@ class ComposerStaticInit8697655cb3cca9f83eb55eb31f6cfacb
         '0e7ad59c075b0c9e4e2081675aad068c' => __DIR__ . '/../..' . '/src/blocks/paragraph/index.php',
         'a20681b06d69bbee1ed393cbff6302d6' => __DIR__ . '/../..' . '/src/blocks/post-title/index.php',
         '198fac735943fa90a1fae9e8c9d5da3e' => __DIR__ . '/../..' . '/src/blocks/post-hero/index.php',
+        'c79d40da7191f9cc2957eb7406a90c0b' => __DIR__ . '/../..' . '/src/blocks/hotel-links/index.php',
     );
 
     public static $prefixLengthsPsr4 = array (

@@ -15,4 +15,5 @@ return array(
     '0e7ad59c075b0c9e4e2081675aad068c' => $baseDir . '/src/blocks/paragraph/index.php',
     'a20681b06d69bbee1ed393cbff6302d6' => $baseDir . '/src/blocks/post-title/index.php',
     '198fac735943fa90a1fae9e8c9d5da3e' => $baseDir . '/src/blocks/post-hero/index.php',
+    'c79d40da7191f9cc2957eb7406a90c0b' => $baseDir . '/src/blocks/hotel-links/index.php',
 );

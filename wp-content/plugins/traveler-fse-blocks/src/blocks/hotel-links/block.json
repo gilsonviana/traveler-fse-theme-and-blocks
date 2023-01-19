@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "traveler-fse-blocks/hotel-links",
+	"version": "0.1.0",
+	"title": "FSE: Hotel Links",
+	"category": "fse-blocks",
+	"icon": "flag",
+	"description": "A Gutenberg block.",
+	"styles": [
+		{
+			"name": "clear-bg",
+			"label": "Clear",
+			"isDefault": true
+		},
+		{
+			"name": "colored-bg",
+			"label": "Colored"
+		}
+	],
+	"attributes": {
+		"showTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"isCustomTitle": {
+			"type": "boolean",
+			"default": false
+		},
+		"customTitle": {
+			"type": "string"
+		}
+	},
+	"example": {},
+	"textdomain": "traveler-fse-blocks",
+	"editorScript": ["file:./index.js", "traveler-fse-blocks-hotel-links-editor-script"],
+	"editorStyle": ["file:./index.css", "traveler-fse-blocks-hotel-links-editor-style"],
+	"style": ["file:./style-index.css", "traveler-fse-blocks-hotel-links-style"]
+}

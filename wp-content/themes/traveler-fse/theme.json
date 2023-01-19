@@ -64,6 +64,11 @@
 					"color": "#FF9662",
 					"name": "Accent 0",
 					"slug": "accent-0"
+				},
+				{
+					"color": "#fff3ed",
+					"name": "Accent 100",
+					"slug": "accent-100"
 				}
 			]
 		},

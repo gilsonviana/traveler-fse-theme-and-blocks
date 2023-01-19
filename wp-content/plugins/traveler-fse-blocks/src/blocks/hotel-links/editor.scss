@@ -1,0 +1,59 @@
+@import './style-variations.scss';
+
+.wp-block-traveler-fse-blocks-hotel-links {
+  text-align: center;
+
+  .traveler-fse-blocks-hotel-links-title {
+    text-transform: uppercase;
+    font-family: var(--wp--preset--font-family--primary);
+    font-size: var(--wp--preset--font-size--heading-side-section);
+    line-height: var(--wp--custom--heading-side-section--line-height);
+    letter-spacing: var(--wp--custom--heading-side-section--letter-spacing);
+    position: relative;
+    padding-top: 20px;
+
+    &::before {
+      content: "";
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      height: 5px;
+      width: 50px;
+      position: absolute;
+      background-color: var(--wp--preset--color--accent-0);
+    }
+  }
+
+  .traveler-fse-blocks-hotel-links-list {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      font-family: var(--wp--preset--font-family--secondary);
+      padding-bottom: 1rem;
+
+      a {
+        font-size: var(--wp--preset--font-size--heading-small);
+        line-height: var(--wp--custom--heading-small--line-height);
+        letter-spacing: var(--wp--custom--heading-small--letter-spacing);
+
+        &:hover {
+          color: var(--wp--preset--color--accent-0);
+        }
+      }
+    }
+  }
+
+  &.is-style-colored-bg {
+    .traveler-fse-blocks-hotel-links-list {
+      @extend %is-colored-bg;
+    }
+  }
+}
