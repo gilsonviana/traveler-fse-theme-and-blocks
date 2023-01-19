@@ -17,7 +17,6 @@ const Edit = ({ attributes, setAttributes }) => {
 					<PanelBody title="Settings" initialOpen>
 						<ToggleControl 
 							label="Show title"
-							help="Display default title."
 							checked={showTitle}
 							onChange={() => setAttributes({ showTitle: !showTitle })}
 						/>
@@ -42,7 +41,7 @@ const Edit = ({ attributes, setAttributes }) => {
 			{showTitle && !isCustomTitle && (
 				<h2 className="traveler-fse-blocks-hotel-links-title">where to stay</h2>
 			)}
-			{showTitle && isCustomTitle && customTitle.trim() && (
+			{showTitle && isCustomTitle && customTitle?.trim() && (
 				<h2 className="traveler-fse-blocks-hotel-links-custom-title">{customTitle}</h2>
 			)}
 			<InnerBlocks template={INNER_BLOCKS_TEMPLATE} />
