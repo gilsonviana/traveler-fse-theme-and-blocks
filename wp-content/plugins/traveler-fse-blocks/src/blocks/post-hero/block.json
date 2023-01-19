@@ -7,6 +7,34 @@
 	"category": "fse-blocks",
 	"icon": "flag",
 	"description": "A Gutenberg block.",
+	"attributes": {
+		"useFeaturedImage": {
+			"type": "boolean",
+			"default": false
+		},
+		"image": {
+			"type": "object",
+			"default": {
+				"mediaId": null,
+				"mediaUrl": null,
+				"caption": null,
+				"alt": null,
+				"srcSet": null
+			}
+		},
+		"title": {
+			"type": "string",
+			"default": null
+		},
+		"author": {
+			"type": "object",
+			"default": {
+				"id": null,
+				"nickname": null,
+				"link": null
+			}
+		}
+	},
 	"usesContext": [ "postId", "postType", "queryId" ],
 	"example": {},
 	"textdomain": "traveler-fse-blocks",

@@ -16,7 +16,7 @@
 }
 
 .wp-block-traveler-fse-blocks-paragraph.is-style-first-letter .traveler-fse-blocks-paragraph {
-  color: var(--wp--preset--color--shade-40);
+  color: var(--wp--preset--color--shade-30);
   font-family: var(--wp--preset--font-family--primary);
   font-size: var(--wp--preset--font-size--paragraph-first-letter);
   line-height: var(--wp--custom--paragraph-first-letter--line-height);

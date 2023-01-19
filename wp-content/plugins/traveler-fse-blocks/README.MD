@@ -25,6 +25,7 @@ domReady(() => {
 ```
 
 ```
+return select('core/block-editor').getBlock(clientId)
 return select('core').getUsers({ who: 'authors' });
 return select('core/block-editor').getTemplate();
 return select('core/block-editor').getSettings();

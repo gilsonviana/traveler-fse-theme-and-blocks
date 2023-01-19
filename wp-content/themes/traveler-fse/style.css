@@ -7,3 +7,27 @@ Author: Modus Create Inc.
 Author URI: https://moduscreate.com
 Text Domain: traveler-fse
 */
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+/*********************************************
+ * DEFAULT POST TEMPLATE
+ *********************************************/
+ .post-template-wp-custom-template-posts-infinite .posts-content-wrapper figure img {
+  height: auto;
+  max-width: none !important;
+  margin-left: -8.25%;
+  margin-right: -8.25%;
+  width: calc(100% + 16.5%);
+}
+
+.post-template-wp-custom-template-posts-infinite .posts-content-wrapper figure figcaption {
+  margin-top: 15px;
+  text-align: center;
+  color: var(--wp--preset--color--shade-40);
+  font-size: var(--wp--preset--font-size--hero-caption);
+  font-family: var(--wp--preset--font-family--primary);
+  font-weight: var(--wp--custom--font-weight--light);
+}

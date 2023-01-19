@@ -37,6 +37,11 @@
 				},
 				{
 					"color": "#707070",
+					"name": "Shade 30",
+					"slug": "shade-30"
+				},
+				{
+					"color": "#979797",
 					"name": "Shade 40",
 					"slug": "shade-40"
 				},
@@ -192,6 +197,11 @@
 					"name": "Paragraph Post",
 					"slug": "paragraph-post",
 					"size": "19px"
+				},
+				{
+					"name": "Hero Caption",
+					"slug": "hero-caption",
+					"size": "14px"
 				},
 				{
 					"fluid": {
