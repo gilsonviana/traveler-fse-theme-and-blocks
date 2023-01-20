@@ -13,9 +13,13 @@ body {
 }
 
 /*********************************************
- * DEFAULT POST TEMPLATE
+ * POSTS INFINITE TEMPLATE
  *********************************************/
- .post-template-wp-custom-template-posts-infinite .posts-content-wrapper figure img {
+.post-template-wp-custom-template-posts-infinite .posts-content-wrapper figure {
+  margin-top: 15px;
+}
+
+.post-template-wp-custom-template-posts-infinite .posts-content-wrapper figure img {
   height: auto;
   max-width: none !important;
   margin-left: -8.25%;
@@ -30,4 +34,45 @@ body {
   font-size: var(--wp--preset--font-size--hero-caption);
   font-family: var(--wp--preset--font-family--primary);
   font-weight: var(--wp--custom--font-weight--light);
+}
+
+/*** ATENTION: 
+ * This is the styling for posts that are NOT converted into the FSE-BLOCKS 
+ ***/
+.post-template-wp-custom-template-posts-infinite .posts-content-wrapper .wp-block-post-content figure.alignnone {
+  max-width: 100% !important;
+}
+
+.post-template-wp-custom-template-posts-infinite .posts-content-wrapper .wp-block-post-content p {
+  font-family: var(--wp--preset--font-family--primary);
+  font-size: var(--wp--preset--font-size--paragraph-post);
+  line-height: var(--wp--custom--paragraph-post--line-height);
+  letter-spacing: var(--wp--custom--paragraph-post--letter-spacing);
+}
+
+.post-template-wp-custom-template-posts-infinite .posts-content-wrapper .wp-block-post-content > p:first-of-type {
+  color: var(--wp--preset--color--shade-30);
+  font-family: var(--wp--preset--font-family--primary);
+  font-size: var(--wp--preset--font-size--paragraph-first-letter);
+  line-height: var(--wp--custom--paragraph-first-letter--line-height);
+  letter-spacing: var(--wp--custom--paragraph-first-letter--letter-spacing);
+  font-weight: var(--wp--custom--font-weight--light);
+}
+
+.post-template-wp-custom-template-posts-infinite .posts-content-wrapper .wp-block-post-content > p:first-of-type::first-letter {
+  font-weight: var(--wp--custom--font-weight--bold);
+  font-family: var(--wp--preset--font-family--secondary);
+  line-height: 0.9;
+  font-size: 4.5rem;
+  color: var(--wp--preset--color--accent-0);
+  padding: 0 8px 0 3px;
+  float: left;
+}
+
+.post-template-wp-custom-template-posts-infinite .posts-content-wrapper .wp-block-post-content h2 {
+  font-family: var(--wp--preset--font-family--primary);
+  font-size: var(--wp--preset--font-size--heading-post);
+  line-height: var(--wp--custom--heading-post--line-height);
+  letter-spacing: var(--wp--custom--heading-post--letter-spacing);
+  font-weight: var(--wp--custom--font-weight--bold);
 }
