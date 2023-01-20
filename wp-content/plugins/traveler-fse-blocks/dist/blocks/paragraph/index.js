@@ -53,7 +53,31 @@ __webpack_require__.r(__webpack_exports__);
 
 (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)(_block_json__WEBPACK_IMPORTED_MODULE_3__.name, {
   edit: _edit__WEBPACK_IMPORTED_MODULE_1__["default"],
-  save: _save__WEBPACK_IMPORTED_MODULE_2__["default"]
+  save: _save__WEBPACK_IMPORTED_MODULE_2__["default"],
+  transforms: {
+    from: [{
+      type: 'block',
+      priority: 7,
+      blocks: ['core/paragraph'],
+      transform: _ref => {
+        let {
+          content
+        } = _ref;
+        const innerBlocks = (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.createBlock)('core/paragraph', {
+          content
+        });
+        const block = (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_block_json__WEBPACK_IMPORTED_MODULE_3__.name, {}, [innerBlocks]);
+        return block;
+      }
+    }],
+    to: [{
+      type: 'block',
+      blocks: ['core/paragraph'],
+      transform: (_, innerBlocks) => (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.createBlock)('core/paragraph', {
+        content: innerBlocks[0].attributes.content
+      })
+    }]
+  }
 });
 
 /***/ }),
